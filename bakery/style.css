@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+.navbar {
+    padding: 0 10px;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-toggler-icon {
+    background-color: #333;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #f5429a;
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+    width: 100%;
+}
+
+/* Main Content Styles */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #f5429a;
+}
+
+.card {
+    margin: 20px 0;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Quick Links and Social Media Styles */
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-links li {
+    margin: 0 10px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.quick-links img {
+    max-height: 24px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: auto;
+    }
+
+    .quick-links ul {
+        flex-direction: column;
+    }
+
+    .quick-links li {
+        margin: 10px 0;
+    }
+}
